@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/components.css">
+    <link rel="stylesheet" href="../styles/responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+        <!-- Courses Section -->
+        <section id="courses" class="courses-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Crypto Trading Courses</h2>
+                    <p>Master cryptocurrency trading with our comprehensive courses designed by industry experts.</p>
+                </div>
+                
+                <div class="course-filters">
+                    <button class="filter-btn active" onclick="filterCourses('all')">All</button>
+                    <button class="filter-btn" onclick="filterCourses('beginner')">Beginner</button>
+                    <button class="filter-btn" onclick="filterCourses('intermediate')">Intermediate</button>
+                    <button class="filter-btn" onclick="filterCourses('advanced')">Advanced</button>
+                </div>
+
+                <div class="courses-grid" id="coursesGrid">
+                    <!-- Courses will be populated by JavaScript -->
+                </div>
+            </div>
+        </section>
+
+         <script src="../js/main.js"></script>
+    <script src="../js/auth.js"></script>
+    <script src="../js/courses.js"></script>
+    <script src="../js/live.js"></script>
+</body>
+</html>
+
